@@ -1,0 +1,322 @@
+body{
+    
+    background-color: black;
+    overflow-x:hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+ }
+.header{
+    height:95vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(netflix.jpg);
+    background-position: cover;
+    padding:10px 9%;
+    padding-left:-15px;
+    left:8px;
+    background-repeat: no-repeat;
+    
+    border-bottom:10px solid rgba(73, 71, 71,.5);
+
+}
+
+.bkimage img{
+    width: 175px;
+    position: relative;
+    left:70px;
+    top:-8px;
+    cursor: pointer;
+
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    
+}
+
+nav button{
+    border:0;
+    outline: 0;
+    background-color: rgba(241, 36, 36);
+    color:white;
+    font-size:18px;
+    padding:7px 20px;
+    margin:10px;
+    width: 100px;
+    position: relative;
+    left:30px;
+    cursor:pointer;
+    height:40px;
+}
+.langbtn{
+    display: inline-flex;
+    align-items: center;
+    border:0.5px solid white;
+    background:transparent;
+    border-radius:6px;
+    height:38px;
+    width: 140px;;
+    
+}
+.langbtn img{
+    width:10px;
+    margin:6px;
+    position: relative;
+    left:-34px;
+    top:2px;   
+}
+.sgbtn{
+    border-radius:6px;    
+}
+.sgbtn:hover{
+    background-color: rgba(179, 9, 9, 0.902);
+
+}
+h1{
+    font-size:55px;position:relative;
+    text-align: center;
+    margin-top:13%;
+    top: 50px;
+    font-weight:800;
+    font-stretch:38px;
+}
+h3{
+    font-size:28px;
+    position:relative;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 100;
+    top: -24px;
+}
+h4{
+    font-size:24px;
+    position:relative;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 100;
+    top:-95px;
+}
+
+.formbtn{
+    position:relative;
+    text-align: center;
+    margin-top: 100px;
+    top:-170px;
+
+}
+.formbtn input{
+    width:450px;
+    height: 41px;
+    background: transparent;
+    background :linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    border:1px solid white;
+    border-radius:6px;
+    margin: 10px;
+    font-size:20px;
+    padding:10px 2%;
+    color: rgb(212, 204, 204);
+    cursor: pointer;
+}
+.formbtn button{
+    border:0;
+    outline:0;
+    width:200px;
+    height:64px;
+    border-radius:6px;
+    padding:10px 2%;
+    font-size:24px;
+    font-weight:600;
+    text-align: center;
+    color:white;
+    background-color: rgba(241, 36, 36);
+    cursor: pointer;
+}
+.subtn:hover{
+    background-color: rgba(179, 9, 9, 0.902);
+    font-size:25px;
+}
+.langbtn:hover{ 
+     background-color:rgba(72, 66, 66);
+
+}
+select{
+    border:none;
+    outline:none;
+    background:transparent;
+    color:white;
+    font-size:20px;
+    padding:10px;
+    position:relative;
+    left:-15px;   
+}
+select option{
+    background-color: black;
+}
+.header2 .video{
+    position: absolute;
+    top:11vh;
+    left:5.1vw;
+    z-index:-1;
+}
+.header2 video{
+    width:470px;
+    height:290px;
+}
+.header2 .screen
+{
+    position:relative;
+    left:53vw;
+    top:-50%;
+}
+.feature h2{
+    font-size:55px;
+}
+.feature h5{
+    font-size:23px;
+    font-stretch:28px;
+    font-weight:450;
+}
+.feature ul{
+    list-style-type: none;
+}
+
+.page2 h2{
+    
+    position: relative;
+    top:10vw;
+    left:32vh;
+
+}
+.page2 h5{
+    
+    position: relative;
+    top: 8vw;
+    left:32vh;
+}
+video :hover{
+    cursor:pointer;
+}
+
+.header2{
+    border-bottom:10px solid rgba(73, 71, 71,.5);
+    height:70vh;
+    background-position: cover;   
+}
+.header3{
+    height:70vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom:10px solid rgba(73, 71, 71,.5);
+    
+}
+.header3 h2{
+    position:absolute;
+    left:50%;
+    top:188%;
+}
+.header3 h5{
+    position: absolute;
+    left:50%;
+    top:210%;
+}
+.box{
+    position:absolute;
+    padding:20px 13px;
+    border:1px solid gray;
+    background-color:black;
+    border-radius:12px;
+    top:227%;
+    left:11.5%;
+}
+.boxct{
+    display: flex;
+}
+.boxct img{
+    width:50px;
+}
+.cont{
+    padding-left:24px;
+    padding-top:8px;
+}
+.cont .title{
+    font-size:16px;
+    font-weight:600;
+    padding-top:7px;
+}
+.cont .titledw{
+    color:rgb(14, 14, 243);
+    font-size:14px;
+}
+.gif{
+    padding-left:43px;
+    padding-top:7px;
+}
+.header4{
+    height:70vh;
+    display: flex;
+    align-items:center;
+    border-bottom:10px solid rgba(73, 71, 71,.5);
+}
+.text4{
+    position: relative;
+    left:10%;
+}
+.header4 img{
+    position: relative;
+    left:11%;
+}
+.header4 video{
+    position: absolute;
+    left:54.1%;
+    top:256%;
+    width:52vh;
+    height:250px;
+    z-index:-2;
+
+}
+.header5{
+    height:70vh;
+    display: flex;
+    align-items:center;
+    border-bottom:10px solid rgba(73, 71, 71,.5);
+}
+.text5{
+    position: relative;
+    left:10%;
+}
+.header5 img{
+    position: relative;
+    left:11%;
+}
+.Contacts{
+    padding:50px 13% ;
+    color:rgb(197, 191, 191);
+    border-top:10px solid rgba(73, 71, 71,.5);
+}
+.Contacts h2{
+    font-size:20px;
+    font-weight:400;
+    padding-bottom:35px;
+}
+.Contacts h2 a{
+    color:rgb(197, 191, 191);
+}
+.col{
+    display:flex;
+}
+.col a{
+    display: block;
+    color:rgb(197, 191, 191);
+    padding-bottom:20px;
+}
+.row{
+    flex-basis:25%;
+    font-size:14px;
+}
+.Contacts button{
+    padding-left:30px;
+    font-size:10px;
+    
+}
